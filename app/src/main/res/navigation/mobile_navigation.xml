@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_hero">
+
+    <fragment
+        android:id="@+id/nav_hero"
+        android:name="com.ivangy.justiceleague.ui.hero.HeroFragment"
+        android:label="@string/menu_hero"
+        tools:layout="@layout/fragment_hero" />
+
+    <fragment
+        android:id="@+id/nav_villain"
+        android:name="com.ivangy.justiceleague.ui.villain.VillainFragment"
+        android:label="@string/menu_villain"
+        tools:layout="@layout/fragment_villain" />
+
+    <fragment
+        android:id="@+id/nav_equipment"
+        android:name="com.ivangy.justiceleague.ui.equipment.EquipmentFragment"
+        android:label="@string/menu_equipment"
+        tools:layout="@layout/fragment_equipment" />
+</navigation>

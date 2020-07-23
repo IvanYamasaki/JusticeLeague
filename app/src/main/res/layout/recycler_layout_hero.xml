@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/lnlName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/default_text_name_character"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblCodeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/default_text_codename_character"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/lblSpecie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/default_text_specie_character"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/lblSkills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/default_text_skills_character"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblVulnerabilities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/default_text_vulnerabilities_character"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblEquipments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/default_text_equipment_character"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblAccessLvl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/default_text_access_lvl_character"
+        android:textSize="18sp" />
+
+</LinearLayout>

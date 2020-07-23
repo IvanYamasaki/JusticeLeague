@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Justice League</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Batman</string>
+    <string name="nav_header_subtitle">Bruce Wayne</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_hero">Heroes</string>
+    <string name="menu_villain">Villains</string>
+    <string name="menu_equipment">Equipment</string>
+
+    <string name="tb_heroes">Heroes</string>
+    <string name="tb_villain">Villains</string>
+    <string name="tb_equipment">Equipments</string>
+    <string name="title_insert_equipments">Insert Equipments</string>
+    <string name="title_insert_heroes">Insert Heroes</string>
+    <string name="title_insert_villains">Insert Villains</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_codename">Codename</string>
+    <string name="lbl_specie">Specie</string>
+    <string name="lbl_skills">Skills</string>
+    <string name="lbl_weak">Weaks</string>
+    <string name="lbl_equipment_name">Name</string>
+    <string name="lbl_equipment_desc">Description</string>
+    <string name="lbl_equipment_usage">Usage</string>
+    <string name="lbl_access_level">Access Level</string>
+    <string name="lbl_hero_rivals">Rivals</string>
+    <string name="lbl_hiding_place">Hiding Place</string>
+    <string name="lbl_confirmed_attack_date">Confirmed Attack Date</string>
+    <string name="btn_insert">Insert</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hint_skill">Skills</string>
+    <string name="hint_equipments">Equipments</string>
+    <string name="hint_vulnerabilities">Vulnerabilities</string>
+    <string name="hint_hiding_place">Hiding Place</string>
+    <string name="hint_date_attack">Attack Date</string>
+    <string name="hint_rivals">Rivals</string>
+    <string name="hint_access_lvl">Access Level</string>
+
+    <string name="btn_add">Add</string>
+    <string name="btn_add_description">Add Button</string>
+
+    <string name="default_text_name_equipment">Name</string>
+    <string name="default_text_description_equipment">Description</string>
+    <string name="default_text_usage_equipment">Usage</string>
+
+    <string name="default_text_name_character">Name:</string>
+    <string name="default_text_codename_character">Codename:</string>
+    <string name="default_text_specie_character">Specie:</string>
+    <string name="default_text_skills_character">Skills:</string>
+    <string name="default_text_vulnerabilities_character">Vulnerabilities:</string>
+    <string name="default_text_equipment_character">Equipments:</string>
+    <string name="default_text_access_lvl_character">Access Level:</string>
+
+    <string-array name="hero_skills">
+        <item>Select a Skill...</item>
+    </string-array>
+    <string-array name="hero_vulnerabilities">
+        <item>Select a Vulnerabilities...</item>
+    </string-array>
+    <string-array name="hero_equipments">
+        <item>Select an Equipment...</item>
+    </string-array>
+    <string-array name="villain_skills">
+        <item>Select a Skill...</item>
+    </string-array>
+    <string-array name="villain_vulnerabilities">
+        <item>Select a Vulnerabilities...</item>
+    </string-array>
+    <string-array name="villain_equipment">
+        <item>Select an Equipment...</item>
+    </string-array>
+
+
+</resources>
